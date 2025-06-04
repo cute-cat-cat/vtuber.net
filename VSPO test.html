@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSPO</title>
+    <!-- 添加 favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- 支援 PNG 格式 -->
+    <link rel="icon" href="VSPO.jpg" type="image/jpg">
+    <link rel="stylesheet" href="VtuberCompany格式.css">
+<style>
+    /* 設定整體背景圖並讓它隨滾動移動 */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        background-image: url('VSPO back.jpg');
+        background-size:100%;
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-position: center top;
+        position: relative;
+    }
+    /* 半透明背景遮罩層 */
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: scroll;
+        z-index: -1;
+        pointer-events: none;
+    }
+</style>
+</head>
+<body>
+   <div class="section">
+        <div class="intro-left">
+            <a href="https://vspo.jp/" target="_blank">
+                <img src="VSPO.jpg" alt="VSPO">
+            </a>
+            <p>VSPO</p>
+        </div>
+        <div class="intro-right">
+            <p><strong>
+                VSPO是日本娛樂公司Brave group旗下的經紀公司品牌，主要業務為經營虛擬主播。<br>
+                旗下虛擬主播的直播內容以電競遊戲（如特戰英豪，Apex英雄等）為主。除在日本外，VSPO電競也在其他地區擁有並經營VTuber。<br>
+                首批英語部及中國部Vtuber分別於2024年6月及8月出道。<br>
+                目前最多訂閱者:橘ひなの<br>
+            </strong></p>
+        </div>
+    </div>
+    <!-- 成員卡片區塊 -->
+    <div class="section profile-container">
+        <!-- 橘ひなの -->
+        <div class="profile-card">
+            <a href="https://www.youtube.com/@hinanotachiba7">
+                <div class="profile-image">
+                    <img src="VSPO1.jpg" alt="橘ひなの">
+                </div>
+            </a>
+            <div class="profile-info">
+                <p>橘ひなの</p>
+                生日:11/11<br>
+                身高:154<br>
+                訂閱人數:88.4万<br>
+                出道日期:2020/8/14</p>
+            </div>
+        </div>
+        <!-- 英リサ -->
+        <div class="profile-card">
+            <a href="https://www.youtube.com/@lisahanabusa">
+                <div class="profile-image">
+                    <img src="VSPO3.jpg" alt="英リサ">
+                </div>
+            </a>
+            <div class="profile-info">
+                <p>英リサ</p>
+                <p>生日：6/3</p>
+                <p>身高：160</p>
+                <p>訂閱人數：51.6万</p>
+                <p>出道日期：2020/8/15</p>
+            </div>
+        </div>
+        <!-- 藍沢エマ -->
+        <div class="profile-card">
+            <a href="https://www.youtube.com/@AizawaEma">
+                <div class="profile-image">
+                    <img src="VSPO2.jpg" alt="藍沢エマ">
+                </div>
+            </a>
+            <div class="profile-info">
+                <p>藍沢エマ</p>
+                <p>生日：1/31</p>
+                <p>身高：156</p>
+                <p>訂閱人數：63.1万</p>
+                <p>出道日期：2021/9/18</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

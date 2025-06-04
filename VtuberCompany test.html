@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vtuber 公司介紹</title>
+  <!-- 網站圖示 -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="p.png" type="image/png" />
+  <style>
+    /* 全域樣式設定 */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: #fff;
+    }
+    /* 頁首樣式 */
+    header {
+      text-align: center;
+      padding: 1vw 0;
+    }
+    header h1 {
+      font-size: 6vw;
+      margin: 0;
+    }
+    /* 簡介區塊樣式 */
+    .intro-section {
+      background-color: #cef2f8;
+      max-width: 80vw;
+      margin: auto;
+      padding: 1vw;
+      border-radius: 10px;
+      font-size: 1.5vw;
+      line-height: 1.8;
+    }
+    /* 各公司區塊外觀設定 */
+    .company-block {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content: center;
+      align-items: center;
+      background-color: #b9e3ff;
+      padding: 2vw;
+      border-top: 2px solid #000;
+      gap: 2vw;
+    }
+    /* 公司入口按鈕樣式 */
+    .company-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 23vw;
+      height: 10vw;
+      background-color: #fff;
+      padding: 1vw;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: transform 0.3s;
+      box-sizing: border-box;
+    }
+    .company-button:hover {
+      transform: scale(1.05);
+    }
+    /* 公司圖示 */
+    .company-button img {
+      height: 10vw;
+      width: 10vw;
+      border-radius: 8px;
+      margin-right: 1vw;
+    }
+    .company-button p {
+      font-size: 2vw;
+      color: #000;
+      margin: 10;
+    }
+    /* 其他公司成員圖片樣式 */
+    .company-image {
+      height: 10vw;
+      aspect-ratio: 1;
+      object-fit:cover;
+      border-radius: 10px;
+    }
+      .member-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #fff;
+      padding: 1vw;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      width: 12vw;
+      transition: transform 0.3s;
+    }
+    .member-card:hover {
+      transform: scale(1.05);
+    }
+    .member-card img {
+      width: 100%;
+      aspect-ratio: 1;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    .member-card p {
+      margin-top: 0.5vw;
+      font-size: 1.2vw;
+      color: #000;
+      text-align: center;
+    }
+    /* 頁腳樣式 */
+    footer {
+      text-align: center;
+      padding: 2vw;
+      font-size: 1.5vw;
+    }
+  </style>
+</head>
+<body>
+  <!-- 頁首標題 -->
+  <header>
+    <h1>Vtuber公司介紹</h1>
+  </header>
+
+  <!-- 簡介段落區塊 -->
+  <section class="intro-section">
+    <p>
+      Vtuber，或稱虛擬主播，是一種以虛擬角色形象進行直播或影片創作的網絡文化現象。這些虛擬角色通常是動畫風格的，利用3D或2D建模技術創造出來，並透過動作捕捉技術讓角色能夠隨著實際主播的動作和聲音進行互動。包括遊戲直播、聊天、音樂表演、動漫相關的討論等。<br /><br />
+      Vtuber的魅力在於角色的個性化和故事背景，這讓觀眾能夠與角色產生情感連結，並且享受其獨特的娛樂風格。<br><br>
+      Vtuber分為個人式與公司型。個人式Vtuber大多數資源由個人自行負擔，在內容創作上較受到限制。至於品牌形象完全依賴個人創作，風格和內容更具個人色彩，能吸引特定粉絲群體。主要收入來源依賴觀眾贊助、訂閱和一些商業合作，收益波動可能較大。<br /><br />
+      公司型Vtuber通常由專業團隊支持，包括動畫師、設計師和行銷人員，有更多的資金和資源來進行高品質的直播和製作。直播內容或未來動向可能會遵循公司的內容策略和指導方針，商業化程度較高。常見的收入來源，有廣告、贊助、周邊商品等。<br /><br />
+      以下介紹幾個在日本有相當規模的Vtuber公司：
+    </p>
+  </section>
+
+  <!-- Hololive 公司介紹區塊 -->
+  <section class="company-block">
+    <a href="Hololive test.html" class="company-button">
+      <img src="Hololive.jpg" alt="Hololive 圖示" />
+      <p>Hololive</p>
+    </a>
+    <img src="Hololive1.jpg" class="company-image" alt="成員圖1" />
+    <img src="Hololive2.jpg" class="company-image" alt="成員圖2" />
+    <img src="Hololive3.jpg" class="company-image" alt="成員圖3" />
+  </section>
+
+  <!-- にじさんじ 公司介紹區塊 -->
+  <section class="company-block">
+    <a href="2434 test.html" class="company-button">
+      <img src="2434.jpg" alt="にじさんじ 圖示" />
+      <p>にじさんじ</p>
+    </a>
+    <img src="24341.jpg" class="company-image" alt="成員圖1" />
+    <img src="24342.jpg" class="company-image" alt="成員圖2" />
+    <img src="24343.jpg" class="company-image" alt="成員圖3" />
+  </section>
+
+  <!-- VSPO 公司介紹區塊 -->
+  <section class="company-block">
+    <a href="VSPO test.html" class="company-button">
+      <img src="VSPO.jpg" alt="VSPO 圖示" />
+      <p>VSPO</p>
+    </a>
+    <img src="VSPO1.jpg" class="company-image" alt="成員圖1" />
+    <img src="VSPO2.jpg" class="company-image" alt="成員圖2" />
+    <img src="VSPO3.jpg" class="company-image" alt="成員圖3" />
+  </section>
+
+  <!-- 頁腳資訊 -->
+  <footer>
+    2024/10/25 台東大學網頁作業<br />
+    組員: 楊崴棋、徐秉均、廖育陞、陳柏儒<br />
+    感謝hololive, 彩虹社, VSPO沒有贊助撥出
+  </footer>
+</body>
+</html>

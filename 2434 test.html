@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>にじさんじ</title>
+    <!-- 添加 favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- 支援 PNG 格式 -->
+    <link rel="icon" href="2434.jpg" type="image/jpg">
+    <link rel="stylesheet" href="VtuberCompany格式.css">
+<style>
+    /* 設定整體背景圖並讓它隨滾動移動 */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        background-image: url('2434 back.jpg');
+        background-size:100%;
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-position: center top;
+        position: relative;
+    }
+    /* 半透明背景遮罩層 */
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: scroll;
+        z-index: -1;
+        pointer-events: none;
+    }
+</style>
+</head>
+<body>
+   <div class="section">
+        <div class="intro-left">
+            <a href="https://www.nijisanji.jp/" target="_blank">
+                <img src="2434.jpg" alt="にじさんじ">
+            </a>
+            <p>にじさんじ</p>
+        </div>
+        <div class="intro-right">
+            <p><strong>
+                ANYCOLOR株式會社所開發的虛擬YouTuber手機應用程式，同時是自家營運VTuber業務的事務所名稱。<br>
+                原本只是聘請虛擬YouTuber來為手機應用程式進行宣傳，月之美兔的爆紅而促成全體Nijisanji虛擬YouTuber人氣
+                上升，遂建立事務所，投身於虛擬YouTuber事業<br>
+                有JP組、EN組、ID組、IN組、KR組、VirtuaReal(中國)與VEgo(台灣)<br>
+                にじさんじ是問題比較多的一家vtuber公司，但是在日本地區是相當的有名氣，因為本身擁有男性vtuber和女性vtuber，並且也有許多海外vtuber，所以粉絲的分布也較為寬廣。<br>
+                目前最多訂閱者：壱百満天原 サロメ<br>
+            </strong></p>
+        </div>
+    </div>
+    <!-- 成員卡片區塊 -->
+    <div class="section profile-container">
+        <!-- 壱百満天原サロメ -->
+        <div class="profile-card">
+            <a href="https://www.youtube.com/@HyakumantenbaraSalome">
+                <div class="profile-image">
+                    <img src="24341.jpg" alt="壱百満天原サロメ">
+                </div>
+            </a>
+            <div class="profile-info">
+                <p>壱百満天原サロメ</p>
+                生日:不詳<br>
+                身高:159<br>
+                訂閱人數:181万<br>
+                出道日期:2022/5/21</p>
+            </div>
+        </div>
+        <!-- 星川サラ -->
+        <div class="profile-card">
+            <a href="https://www.youtube.com/@HoshikawaSara">
+                <div class="profile-image">
+                    <img src="24342.jpg" alt="星川サラ">
+                </div>
+            </a>
+            <div class="profile-info">
+                <p>星川サラ</p>
+                <p>生日：8/7</p>
+                <p>身高：155</p>
+                <p>訂閱人數：113万</p>
+                <p>出道日期：2019/10/19</p>
+            </div>
+        </div>
+        <!-- 奈羅花 -->
+        <div class="profile-card">
+            <a href="https://www.youtube.com/channel/UC-o-E6I3IC2q8sAoAuM6Umg">
+                <div class="profile-image">
+                    <img src="24343.jpg" alt="奈羅花">
+                </div>
+            </a>
+            <div class="profile-info">
+                <p>奈羅花</p>
+                <p>生日：7/10</p>
+                <p>身高：138</p>
+                <p>訂閱人數：45.6万</p>
+                <p>出道日期：2019/12/29</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

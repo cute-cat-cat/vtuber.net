@@ -1,0 +1,93 @@
+*.section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw 0;
+}
+/* 介紹區左邊樣式 */
+.intro-left, .intro-right {
+    flex: 1;
+    min-width: 300px;
+    padding: 1vw;
+}
+.intro-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro-left img {
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.intro-left img:hover {
+    transform: scale(1.03);
+}
+.intro-left p {
+    font-size: 4vw;
+    margin: 1vw 0 0;
+}
+.intro-right p {
+    font-size: 1.3vw;
+    text-align: left;
+}
+/* 成員卡片容器 */
+.profile-container {
+    height:20vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+}
+/* 單一成員卡片 */
+ .profile-card {
+    width: 20vw;
+    height: 35vw;
+    min-height: 35vw;
+    background-color: #b1b1b1;
+    border-radius: 10px;
+    padding: 2vw;
+    text-align: center;
+    transition: transform 0.3s;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    }
+.profile-card:hover {
+    transform: scale(1.03);
+}
+/* 成員圖片圓形外框 */
+.profile-image {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow:hidden;
+    margin-bottom: 5vw;
+    background-color: #4b6883;
+    margin: 0 auto 1vw auto;
+}
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* 成員基本資訊區塊 */
+.profile-info {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 14vw;
+}
+.profile-info p {
+    font-size: 1.2vw;
+    margin: 0.5vw 0;
+}

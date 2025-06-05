@@ -7,13 +7,18 @@
   <!-- 網站圖示 -->
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="icon" href="p.png" type="image/png" />
+  <div style="width: 100%; height: 70vh; overflow: hidden; display: flex; justify-content: center; align-items: center;">
+  <img src="https://image.gamebase.com.tw/gb_img/7/004/412/4412387.jpg"
+       style="min-height: 100%; min-width: 100%; object-fit: cover;">
+</div>
   <style>
     /* 全域樣式設定 */
     body {
       margin: 0;
       padding: 0;
       font-family: sans-serif;
-      background-color: #fff;
+      background-color: #dfdddd;
+      position: relative;
     }
     /* 頁首樣式 */
     header {
@@ -26,7 +31,7 @@
     }
     /* 簡介區塊樣式 */
     .intro-section {
-      background-color: #cef2f8;
+      background-color: #daf4f8;
       max-width: 80vw;
       margin: auto;
       padding: 1vw;
@@ -44,6 +49,7 @@
       padding: 2vw;
       border-top: 2px solid #000;
       gap: 2vw;
+      background-repeat: no-repeat;
     }
     /* 公司入口按鈕樣式 */
     .company-button {
@@ -81,7 +87,7 @@
       object-fit:cover;
       border-radius: 10px;
     }
-      .member-card {
+    .member-card {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -133,42 +139,62 @@
   </section>
 
   <!-- Hololive 公司介紹區塊 -->
-  <section class="company-block">
-    <a href="Hololive.html" class="company-button">
+  <section class="company-block"
+  style="background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
+    background-image: url('Hololive back1.jpg');
+    background-size: cover;
+    background-position: center;">
+    <a href="Hololive test.html" class="company-button">
       <img src="Hololive.jpg" alt="Hololive 圖示" />
       <p>Hololive</p>
     </a>
-    <img src="Hololive1.jpg" class="company-image" alt="成員圖1" />
-    <img src="Hololive2.jpg" class="company-image" alt="成員圖2" />
-    <img src="Hololive3.jpg" class="company-image" alt="成員圖3" />
+    <iframe width="512" height="256" src="https://www.youtube.com/embed/DlZYG2NVaqo?list=PL1NeGg1woXqkCptx8u_FZKC_JkQ0X5p3I" 
+    title="『ホロライブ・オルタナティブ』 ティザーPV予告編（30秒ver）" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+  </section>
   </section>
 
   <!-- にじさんじ 公司介紹區塊 -->
-  <section class="company-block">
-    <a href="2434.html" class="company-button">
+  <section class="company-block" 
+  style="background-image:
+  linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+  url('2434\ back1.jpg'); background-position:left;">
+    <a href="2434 test.html" class="company-button">
       <img src="2434.jpg" alt="にじさんじ 圖示" />
       <p>にじさんじ</p>
     </a>
-    <img src="24341.jpg" class="company-image" alt="成員圖1" />
-    <img src="24342.jpg" class="company-image" alt="成員圖2" />
-    <img src="24343.jpg" class="company-image" alt="成員圖3" />
+    <iframe width="512" height="256" src="https://www.youtube.com/embed/08ThYpCs7jk?list=PLout9ZF2aCT__7zm3Dh3MjgNj01Xnkrd3" title="インレイド (Official Music Video) | VOLTACTION(ヴォルタクション)" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
   </section>
 
   <!-- VSPO 公司介紹區塊 -->
-  <section class="company-block">
-    <a href="VSPO.html" class="company-button">
+  <section class="company-block" 
+  style="background-image:
+  linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+  url('VSPO back1.jpg');
+  background-size: cover;
+  background-position: center;">
+    <a href="VSPO test.html" class="company-button">
       <img src="VSPO.jpg" alt="VSPO 圖示" />
       <p>VSPO</p>
     </a>
-    <img src="VSPO1.jpg" class="company-image" alt="成員圖1" />
-    <img src="VSPO2.jpg" class="company-image" alt="成員圖2" />
-    <img src="VSPO3.jpg" class="company-image" alt="成員圖3" />
+    <iframe width="512" height="256" src="https://www.youtube.com/embed/Qh6aSTTkmEs" title="【ぶいすぽっ！】Blessing ~12人で歌ってみた~" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
   </section>
 
   <!-- 頁腳資訊 -->
   <footer>
-    2025/6/10 台東大學網頁作業<br />
-    組員: 楊崴棋、陳冠佑、廖育陞、陳柏儒<br />
+    2024/10/25 台東大學網頁作業<br>
+    組員: 楊崴棋、陳冠佑、廖育陞、陳柏儒<br>
     感謝hololive, 彩虹社, VSPO沒有贊助撥出
   </footer>
 </body>

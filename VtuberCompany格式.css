@@ -91,3 +91,7 @@
     font-size: 1.2vw;
     margin: 0.5vw 0;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+  }

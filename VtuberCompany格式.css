@@ -36,7 +36,7 @@
 }
 /* 成員卡片容器 */
 .profile-container {
-    height:20vw;
+    height:40vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

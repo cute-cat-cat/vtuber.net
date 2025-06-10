@@ -61,6 +61,12 @@
 .profile-card:hover {
     transform: scale(1.03);
 }
+.profile-info:hover {
+    transform: scale(1.03);
+}
+.profile-image:hover {
+    transform: scale(1.03);
+}
 /* 成員圖片圓形外框 */
 .profile-image {
     width: 100%;
